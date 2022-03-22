@@ -15,3 +15,6 @@
 	color: #ffffff;
 	padding-left: 40px;
 }
+.navbar a:hover {
+	color: #ffa500;
+}
