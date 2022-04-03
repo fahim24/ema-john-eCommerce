@@ -10,11 +10,13 @@
 .navbar img {
 	width: 140px;
 }
-.navbar a {
+.nav-links {
+	display: flex;
+}
+.nav-links a {
 	text-decoration: none;
-	color: #ffffff;
 	padding-left: 40px;
 }
-.navbar a:hover {
+.nav-links a:hover {
 	color: #ffa500;
 }
