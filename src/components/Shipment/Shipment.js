@@ -5,11 +5,10 @@ import auth from "../../firebase.init";
 const Shipment = () => {
 	const [user] = useAuthState(auth);
 	const [name, setName] = useState("");
-	const [email, setEmail] = useState("");
+	const [email] = useState("");
 	const [address, setAddress] = useState("");
 	const [phone, setPhone] = useState("");
-	const [error, setError] = useState("");
-	// const navigate = useNavigate();
+	const [error] = useState("");
 
 	const handleNameBlur = (event) => {
 		setName(event.target.value);
